@@ -1,0 +1,13 @@
+[
+  {
+    "name": "flask-app",
+    "image": "garthigank/flask-app:latest",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 5000,
+        "hostPort": 5000
+      }
+    ]
+  }
+]
